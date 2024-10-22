@@ -6,6 +6,7 @@
   --tertiary: #FFDF8D;
   --text-primary: #616567;
   --text-secondary: #B2B2B2;
+  --text-tertiary: #9E9E9E;
   --icon: #64686A;
   --esp32: #2497F0;
   --esp32-light: #D1E8F5;
@@ -21,4 +22,24 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   user-select: none;
+}
+
+.slider-thumb-yellow::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fbbf24; /* Tailwind yellow-400 */
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.slider-thumb-yellow::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fbbf24; /* Tailwind yellow-400 */
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
 }

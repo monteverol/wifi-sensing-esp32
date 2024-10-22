@@ -3,6 +3,8 @@ import './App.css'
 import Logo from './components/logo'
 import Panel from './components/panel'
 import Legend from './components/legend';
+import ZoomableContainer from './components/zoomableContainer';
+import blueprint from './assets/blueprint.png';
 
 function App() {
   return (
@@ -18,9 +20,7 @@ function App() {
             <h1 className="font-bold text-2xl text-white text-center">Add Room</h1>
           </div>
         </div>
-        <div className="bg-white rounded-xl h-full w-full drop-shadow-md">
-
-        </div>
+        <ZoomableContainer imageSrc={blueprint} />
       </div>
     </div>
   )

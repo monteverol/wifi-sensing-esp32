@@ -12,6 +12,7 @@ export default {
         tertiary: 'var(--tertiary)',
         text_primary: 'var(--text-primary)',
         text_secondary: 'var(--text-secondary)',
+        text_tertiary: 'var(--text-tertiary)',
         icon: 'var(--icon)',
         esp32: 'var(--esp32)',
         esp32_light: 'var(--esp32-light)',
