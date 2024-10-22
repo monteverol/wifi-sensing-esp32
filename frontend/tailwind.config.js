@@ -12,6 +12,13 @@ export default {
         tertiary: 'var(--tertiary)',
         text_primary: 'var(--text-primary)',
         text_secondary: 'var(--text-secondary)',
+        icon: 'var(--icon)',
+        esp32: 'var(--esp32)',
+        esp32_light: 'var(--esp32-light)',
+        person: 'var(--person)',
+        person_light: 'var(--person-light)',
+        device: 'var(--device)',
+        device_light: 'var(--device-light)',
       },
       dropShadow: {
         'icon': '2px 2px 1px rgba(0, 0, 0, 0.15)',

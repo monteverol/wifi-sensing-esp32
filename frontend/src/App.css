@@ -6,6 +6,13 @@
   --tertiary: #FFDF8D;
   --text-primary: #616567;
   --text-secondary: #B2B2B2;
+  --icon: #64686A;
+  --esp32: #2497F0;
+  --esp32-light: #D1E8F5;
+  --person: #F04B83;
+  --person-light: #F5D1DF;
+  --device: #FEC430;
+  --device-light: #F5EBD1;
 }
 
 * {
