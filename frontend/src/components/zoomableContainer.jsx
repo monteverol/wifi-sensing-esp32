@@ -30,18 +30,18 @@ const ZoomableContainer = ({ imageSrc }) => {
                 <img src={imageSrc} alt="Blueprint" className="max-w-full max-h-full object-contain" />
               </div>
             </TransformComponent>
-            <div className="absolute right-4 top-1/2 -translate-y-1/2 flex flex-col items-center space-y-4">
+            <div className="absolute right-8 top-1/2 -translate-y-1/2 flex flex-col items-center space-y-4">
               <div className="relative h-[300px] w-4 flex flex-col items-center">
-                <div className="absolute top-0 transform -translate-y-6 text-text_tertiary text-md font-bold">100%</div>
+                <div className="absolute -top-8 transform text-text_tertiary text-md font-bold">100%</div>
                 <input
                   type="range"
                   min="50"
                   max="400"
                   value={scale * 100}
                   onChange={(e) => handleZoomChange(zoomIn, zoomOut, e.target.value)}
-                  className="absolute top-1/2 -translate-y-1/2 rotate-[-90deg] transform w-[300px] h-4 rounded-full bg-gray-300 appearance-none slider-thumb-yellow"
+                  className="absolute top-1/2 -translate-y-1/2 rotate-[-90deg] transform w-[300px] h-4 rounded-full bg-[#E5E5E5] appearance-none slider-thumb-yellow"
                 />
-                <div className="absolute bottom-0 transform translate-y-6 text-text_tertiary text-md font-bold">0%</div>
+                <div className="absolute -bottom-8 transform text-text_tertiary text-md font-bold">0%</div>
               </div>
             </div>
           </>
